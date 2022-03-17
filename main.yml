@@ -12,8 +12,8 @@
   hosts: amazon
 
 
-- name: "creating documentroot for virtualhost"
-  hosts: amazon
+    #- name: "creating documentroot for virtualhost"
+    #  hosts: amazon
 
 
 - name: "Restarting/Enabling Apache Webserver"
