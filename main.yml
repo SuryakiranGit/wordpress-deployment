@@ -1,15 +1,15 @@
 ---
 - name: "Installing Apache Webserver"
-  hosts: amazon
+  #  hosts: amazon
 
 - name: "adding php support"
-  hosts: amazon
+  #  hosts: amazon
 
 - name: "creating httpd.conf from httpd.conf.tmpl file"
-  hosts: amazon
+  #  hosts: amazon
 
 - name: "creating virtualhost from virtualhost.conf.tmpl file"
-  hosts: amazon
+  #  hosts: amazon
 
 
     #- name: "creating documentroot for virtualhost"
@@ -17,13 +17,13 @@
 
 
 - name: "Restarting/Enabling Apache Webserver"
-  hosts: amazon
+  #  hosts: amazon
 
 - name: "installing mysql server"
-  hosts: amazon
+  #  hosts: amazon
 
     #- name: "reating my.cnf from template file"
     #  hosts: amazon
 
 - name: "restartting mysql server"
-  hosts: amazon
+  #  hosts: amazon
