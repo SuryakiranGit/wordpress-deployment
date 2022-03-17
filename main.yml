@@ -22,8 +22,8 @@
 - name: "installing mysql server"
   hosts: amazon
 
-- name: "reating my.cnf from template file"
-  hosts: amazon
+    #- name: "reating my.cnf from template file"
+    #  hosts: amazon
 
 - name: "restartting mysql server"
   hosts: amazon
