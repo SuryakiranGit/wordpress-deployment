@@ -1,29 +1,35 @@
----
-- name: "Installing Apache Webserver"
-  #  hosts: amazon
+    - name: "Installing Apache Webserver"
+      hosts: localhost
 
-- name: "adding php support"
-  #  hosts: amazon
+    - name: "adding php support"
+      hosts: localhost
 
-- name: "creating httpd.conf from httpd.conf.tmpl file"
-  #  hosts: amazon
+    - name: "creating httpd.conf from httpd.conf.tmpl file"
+      hosts: localhost
+ 
+    - name: "creating virtualhost from virtualhost.conf.tmpl file"
+      hosts: localhost
+ 
+    - name: "creating documentroot for virtualhost"
+      hosts: localhost
 
-- name: "creating virtualhost from virtualhost.conf.tmpl file"
-  #  hosts: amazon
+    - name: "Restarting/Enabling Apache Webserver"
+      hosts: localhost
 
+    - name: "installing mysql server"
+      hosts: localhost
 
-    #- name: "creating documentroot for virtualhost"
-    #  hosts: amazon
+    - name: "reset mysql root password"
+      hosts: localhost
 
+    - name: "reating my.cnf from template file"
+      hosts: localhost
 
-- name: "Restarting/Enabling Apache Webserver"
-  #  hosts: amazon
+    - name: "restartting mysql server"
+      hosts: localhost
 
-- name: "installing mysql server"
-  #  hosts: amazon
+    - name: "creating Additional user account"
+      hosts: localhost
 
-    #- name: "reating my.cnf from template file"
-    #  hosts: amazon
-
-- name: "restartting mysql server"
-  #  hosts: amazon
+    - name: "updating additional user password"
+      hosts: localhost
