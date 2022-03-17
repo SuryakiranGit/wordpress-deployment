@@ -1,0 +1,29 @@
+---
+- name: "Installing Apache Webserver"
+  hosts: amazon
+
+- name: "adding php support"
+  hosts: amazon
+
+- name: "creating httpd.conf from httpd.conf.tmpl file"
+  hosts: amazon
+
+- name: "creating virtualhost from virtualhost.conf.tmpl file"
+  hosts: amazon
+
+
+- name: "creating documentroot for virtualhost"
+  hosts: amazon
+
+
+- name: "Restarting/Enabling Apache Webserver"
+  hosts: amazon
+
+- name: "installing mysql server"
+  hosts: amazon
+
+- name: "reating my.cnf from template file"
+  hosts: amazon
+
+- name: "restartting mysql server"
+  hosts: amazon
